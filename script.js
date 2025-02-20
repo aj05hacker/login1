@@ -30,7 +30,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     // Simulate API call delay
     setTimeout(() => {
-        // Redirect to example.com after successful login
+        // Redirect after successful login
         window.location.href = 'https://192.168.31.249';
     }, 2000);
 });
